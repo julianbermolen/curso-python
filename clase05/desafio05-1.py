@@ -4,8 +4,9 @@ Para finalizar la ejecución, el usuario debe escribir la palabra exit. El progr
 Finalmente, debe mostrar la suma parcial y total obtenida
 """
 
-continuar = True
-numero = 0
+continuar = True # Bandera
+numero = 0 # Acumulador 
+
 while continuar:
     entrada=input("Qué número deseas sumar? Si quieres salir, escribe exit")
     if entrada == "exit":

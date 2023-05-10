@@ -1,0 +1,26 @@
+Clase 06 - Conjuntos y diccionarios
+
+Conjuntos SET 
+Es una colección no ordenada de elementos únicos. Son heterogéneos, es decir, pueden guardar cualquier tipo de datos.
+
+conjunto = {1,2,3,4}
+otro_conjunto = {"Hola","como"}
+conjunto_vacio = set()
+
+Un conjunto no puede incluir objetos mutables, como listas, diccionarios u otros conjuntos. (objetos que puedan modificarse).
+Puede convertirse o viceversa en lista.
+
+conjunto.update() -> añade multiples elementos a un set.
+conjunto.discard(2) -> Elimina elementos: Elimina el elemento "2" o el valor que le envies si no existe, lo ignora.
+conjunto.remove(2) -> Elimina elementos: Elimina el elemento indicado, pero si no existe da error.
+Si agregas un valor ya existente al conjunto, lo elimina.
+
+IN - Determina si un valor está dentro del conjunto
+
+1 in conjunto -> True
+.pop() -> Elimina un valor al azar. (Segun lo asignado en memoria)
+
+Diccionarios <Dict>
+Es una colección no ordenadas de objetos. Se compone de clave y valor.
+{"Nombre":"Coderhouse"}
+Diccionario vacio = diccionario = {}

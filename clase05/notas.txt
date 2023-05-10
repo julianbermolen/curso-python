@@ -1,0 +1,14 @@
+Clase 05 - Controladores de flujo 2
+
+Iteracion : Repeticiones de proceso.
+Bucle: Es una estructura de control que permite ejecutar repetidamente un bloque de código hasta que se cumpla una condicion determinada. El bucle puede ser finito o infinito. Son útiles para automatizar tareas que requieren repeticion.
+
+while numero > 0:
+	print(numero)
+	numero -= 1
+	print("Terminé de contar ")
+	
+Sentencia while else: Else sirve para ejecutar un bloque cuando el while tenga condicion false.
+Sentencia break: Sale de la iteracion.
+
+Sentencia Continue
